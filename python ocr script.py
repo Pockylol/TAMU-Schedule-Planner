@@ -44,6 +44,7 @@ building_directory = {
     "OMB": "O & M Building (Eller Oceanography & Meteorology)",
     "PSYC": "Psychology Building",
     "RECH": "Student Recreation Center",
+    "THOM" : "Thompson Hall",
     "SCC": "Student Computing Center",
     "SCTS": "Scoates Hall",
     "WCBA": "Wehner Building (Mays Business School)",
@@ -52,6 +53,8 @@ building_directory = {
 
 def select_file():
     root = tk.Tk()
+    root.lift()
+    root.attributes("-topmost", True)
     root.withdraw()
     file_path = filedialog.askopenfilename(title="Select an Image to Scan",filetypes=[("Image Files", "*.png *.jpg *.jpeg *.bmp *.webp")])
 
@@ -86,6 +89,12 @@ if __name__ == "__main__":
     file_path = select_file()
     if file_path:
         text = find_buildings(file_path)
+
+        raw_text = reader.readtext(file_path, detail=0)
+        print("--- Raw OCR Output ---")
+        print(raw_text)
+    
         print("\n")
         print("---TAMU Buildings Found---")
         print(text)
+       
