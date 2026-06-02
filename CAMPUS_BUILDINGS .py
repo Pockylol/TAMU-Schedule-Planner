@@ -50,7 +50,9 @@ CAMPUS_BUILDINGS = {
     "ILSB": {"name": "Interdisciplinary Life Sciences Building", "coords": (30.614141119624854, -96.34363527872044)},
     "ILCB": {"name": "Innovative Learning Classroom Building", "coords": (30.612084285650553, -96.34449104882312)},
     "ILSQ": {"name": "Instructional Laboratory & Innovative Learning Building", "coords": (30.610937950503523, -96.34618344147098)},
-
+    "OMB": {"name": "Eller Oceanography & Meteorology Building", "coords": (30.61786360339718, -96.33660831659529)},
+    "BSBE": {"name": "Biological Sciences Building East", "coords": (30.61579884669554, -96.33932285675844)},
+    "BSBW": {"name": "Biological Sciences Building West", "coords": (30.615683553992383, -96.33967372399017)},
     # --- West Campus Buildings ---
     "HPCT": {"name": "HEEP Center", "coords": (30.61137438507616, -96.34787516764285)},
     "KLCT": {"name": "Kleberg Center", "coords": (30.610570042781635, -96.34728093478144)},
