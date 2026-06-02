@@ -5,7 +5,7 @@ An interactive web application that transforms a static Texas A&M class schedule
 
 ---
 
- **[View the Live App on Streamlit Cloud](https://tamu-schedule-planner.streamlit.app/)**
+ **[View the Live App on Streamlit Cloud](https://tamu-schedule-map.streamlit.app/)**
 
 ---
 
